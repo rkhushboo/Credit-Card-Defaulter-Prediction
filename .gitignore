@@ -1,0 +1,52 @@
+# Virtual Environments
+myenv/
+venv/
+env/
+.venv
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/logs/
+
+# CatBoost Training Logs
+catboost_info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials & Secrets
+.env
+secrets.txt
+credentials.json
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Others
+*.log
+*.tmp
